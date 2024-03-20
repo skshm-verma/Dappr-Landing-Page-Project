@@ -77,8 +77,8 @@ label {
 
 #fixed-obj {
     position: fixed;
-    margin-top: 520px;
-    margin-left: 1350px;
+    right : 35px;
+    bottom : 5px;
     width: 100px;
 }
 
@@ -241,4 +241,17 @@ label {
     padding: 30px;
     font-size: 20px;
     color: #04285A;
+}
+
+#btn-next{
+    background-color: black;
+    color : white;
+    padding : 5px;
+    width: 110px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 12px;
+    position: absolute;
+    right : 10px;
+    bottom: 10px;
 }
